@@ -6,7 +6,6 @@
 
 #Run this script as root user from Red Hat linux
 
-sudo -i
 yum update -y
 yum install git -y
 yum install fontconfig java-11-openjdk -y
