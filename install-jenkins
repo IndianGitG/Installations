@@ -2,7 +2,9 @@
 #Author: Harsha
 #Date: 16-11-2022
 #Description: This script installs jenkins in your Redhat Linux
-#Modified: 16-11-2022
+#Modified: 17-11-2022
+
+#Run this script as root user from Red Hat linux
 
 sudo -i
 yum update -y
