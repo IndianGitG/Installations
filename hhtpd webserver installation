@@ -1,0 +1,12 @@
+#!/bin/bash
+#Author: Harsha
+#Description: Adds webserver to Linux Red Hat OS
+#Date: 27th Nov 2022
+#Modified Date: 27th Nov 2022
+#Run in advanced code section while launching Ec2 instance
+
+sudo -i
+yum update -y
+yum install httpd -y
+service httdp start
+echo "Hello" > /var/www/html/index.html
