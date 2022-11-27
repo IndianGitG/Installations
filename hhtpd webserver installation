@@ -8,5 +8,5 @@
 sudo -i
 yum update -y
 yum install httpd -y
-service httdp start
+service httpd start
 echo "Hello" > /var/www/html/index.html
