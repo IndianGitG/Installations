@@ -14,7 +14,6 @@ yum install maven -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum install jenkins -y
-sudo su -
 echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64" >> .bash_profile
 echo "M2_HOME=/usr/share/maven" >> .bash_profile
 echo "M2=/usr/share/maven/bin" >> .bash_profile
