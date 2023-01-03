@@ -5,7 +5,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
   web:
-    image: httpd
+    image: centos/httpd
     ports:
       - "80:80"
     volumes:
