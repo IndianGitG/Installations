@@ -3,7 +3,7 @@
 #Date: 16-11-2022
 #Description: This script installs jenkins in your Redhat Linux
 #Modified: 17-11-2022
-
+#check
 #Run this script as root user from Red Hat linux
 
 yum update -y
